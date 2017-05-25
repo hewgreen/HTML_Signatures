@@ -9,5 +9,11 @@ The buttons are also here and can be easily adapted and made into different colo
 2. nav to /Users/username/Library/Mail/V4/MailData/Signatures (I use ```cd``` in bash then ```open .```)
 3. find the signature file just created (by date sort)
 4. paste the html from my file (adapted as you need) into the placeholder
-5. ensure you lock the file so mail doesn't alter it. this is why we closed the program at the start. lock by clicking 'get info' and finding the tickbox or ```chflags uchg ~/Library/Mail/V3/MailData/Signatures/*.mailsignature``` to lock files. If you mess up, you can unlock the files with this command. ```chflags nouchg ~/Library/Mail/V3/MailData/Signatures/*.mailsignature```
+5. ensure you lock the file so mail doesn't alter it. this is why we closed the program at the start. lock by clicking 'get info' and finding the tickbox or ```chflags uchg ~/Library/Mail/V4/MailData/Signatures*.mailsignature``` to lock files. If you mess up, you can unlock the files with this command. ```chflags nouchg ~Library/Mail/V4/MailData/Signatures*.mailsignature```
+
+I hope this helps. If it has please give me feedback.
+
+Kind regards,
+
+Matt
 
